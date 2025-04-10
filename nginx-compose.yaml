@@ -2,7 +2,7 @@ version: '3'
 services:
   service1:
     image: drool:latest
-    container_name: nginxcontainer
+    container_name: nginxcontainershahu
     ports:
       - "88:80"
       - "444:443"
