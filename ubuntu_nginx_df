@@ -1,4 +1,4 @@
 FROM nginx:latest
 RUN apt update && apt install nginx -y
-COPY honey /var/www/html/
-CMD ["nginx","-g","daemon off"]
+COPY drool /usr/share/nginx/html
+CMD ["nginx","-g","daemon off;"]
