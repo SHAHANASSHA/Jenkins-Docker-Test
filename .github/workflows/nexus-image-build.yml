@@ -16,7 +16,7 @@ jobs:
         run: |
           echo "IMAGE_NAME=nexusimage3" >> $GITHUB_ENV
           echo "IMAGE_TAG=v1" >> $GITHUB_ENV
-          echo "NEXUS_REPO= https://c2ff6895c204.ngrok-free.app" >> $GITHUB_ENV
+          echo "NEXUS_REPO= c2ff6895c204.ngrok-free.app" >> $GITHUB_ENV
 
       - name: Install Docker
         uses: docker/setup-buildx-action@v2
